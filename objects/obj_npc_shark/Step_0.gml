@@ -11,6 +11,7 @@ if (!global.dead){
 		stay_timer -= 1;
 		speed_ = 0;
 		angle = point_direction(x, y, obj_par_player.x,obj_par_player.y);
+		image_xscale = obj_par_player.x>x? 1:-1;
 	}
 
 	if (stay_timer==0){

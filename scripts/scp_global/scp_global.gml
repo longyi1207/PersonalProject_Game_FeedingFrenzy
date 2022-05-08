@@ -1,0 +1,1 @@
+global.highest = 0;

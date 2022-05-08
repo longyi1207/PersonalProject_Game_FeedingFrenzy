@@ -1,4 +1,4 @@
-y = 100+random(2200)
+y = 600+random(1400)
 
 if (random(1)>0.5){
 	x = 0;
